@@ -1,4 +1,4 @@
-# bcionescu.com
+# README
 
 What could you do, if you were severely limited? What would you build, if you had a basic understanding of HTML, and not much more? I've always wanted to have a clean, minimalistic personal blog, where I can post my thoughts. However, I wanted to build it myself.
 
