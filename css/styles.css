@@ -72,6 +72,11 @@ h2 {
 	padding: 2rem 1rem;
 }
 
+.no-spacing {
+	margin-top: 0;
+	padding-top: 0;
+}
+
 a.body-link {
 	color: #FFBE69;
 	text-decoration: none;
