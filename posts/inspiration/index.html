@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Why would you reinvent the wheel? For example, this blog was designed from scratch using HTML, CSS, and a sprinkling of vanilla JS—that's it!">
+	<title>Inspiration - bcionescu.com</title>
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+	<div id="header"></div>
+
+	<div class="container">
+		<br><br>
+		<center>
+			<br><br>
+			<h1 style="margin-top: 0;">Inspiration</h1>
+		</center>
+		<br>
+			<b><p>June 04, 2025</p></b>
+
+			<p>Few things in life are as magical as the moment when inspiration grabs hold. Unbeknownst to you, for a split second, your mind becomes a conduit to the Ether, data instantly being downloaded into your brain.</p>
+
+			<p>When this happens, you feel it in your bones. You know that whatever you had planned that day is likely going out the window, because if you do not scratch this itch, you may very well go mad.</p>
+
+			<p>That initial data transfer acts as jet fuel, allowing you to immediately traverse great distances in terms of productivity. For the next few hours, you don't need meditation or alpha waves; you need to be left alone, so that you can transcode the data stream into digital form, either as notes or as code.</p>
+
+			<p>That is how this blog came about. I had read <a href="https://world.hey.com/dhh" class="body-link" target="_blank" rel="noopener noreferrer">DHH</a> and <a href="https://world.hey.com/jason" class="body-link" target="_blank" rel="noopener noreferrer">Jason Friend's</a> blogs and enjoyed their clean look. Once I saw Sylvan Franklin's video, <a href="https://www.youtube.com/watch?v=ftxFSjqh79Q" class="body-link" target="_blank" rel="noopener noreferrer">These developer portfolio websites are trash</a>, the two connected in my mind, and the spark occurred.</p>
+
+			<p>If you quiet your mind, you may be able to feel the next one coming.</p>
+		</div>
+
+	<footer id="footer"></footer>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			fetch('/templates/header.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('header').innerHTML = data);
+
+			fetch('/templates/footer.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('footer').innerHTML = data);
+		});
+	</script>
+
+</body>
+
+</html>
