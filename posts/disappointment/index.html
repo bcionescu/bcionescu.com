@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sometimes things do not go your way. No matter how much you want it, regardless of the work or effort you put in, in the end, it's still possible that you may not get what you want.">
+	<title>Disappointment</title>
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+	<div id="header"></div>
+
+	<div class="container">
+		<br><br>
+		<center>
+			<br><br>
+			<h1 style="margin-top: 0;">Disappointment</h1>
+		</center>
+		<br>
+		<b><p>Jun 5, 2025</p></b>
+
+		<p>Sometimes things do not go your way. No matter how much you want it, regardless of the work or effort you put in, in the end, it's still possible that you may not get what you want.</p>
+
+		<p>You may wonder why you didn't get it. Are you not good enough? Did someone else want it more? Did they put more work in? Ultimately, dwelling upon it burdens one's soul.</p>
+
+		<p>Stand up, dust yourself off, smile, and count your blessings. Do your best to live in a way that is conformable to nature. The things within your control are thoughts, aversion, and pursuit. The things that belong to others are within <i>their</i> control, and thus, not yours to distribute.</p>
+
+		<p>Keep learning and doing impressive things. Who knows what the gods may yet have in store for you?</p>
+		</div>
+
+	<footer id="footer"></footer>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			fetch('/templates/header.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('header').innerHTML = data);
+
+			fetch('/templates/footer.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('footer').innerHTML = data);
+		});
+	</script>
+
+</body>
+
+</html>
