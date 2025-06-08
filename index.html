@@ -13,21 +13,13 @@
 	<div id="header"></div>
 
 	<div class="container">
-		<br><br>
+			<br><br><br><br><br>
 
-		<div class="post-preview">
-			<h2 class="no-spacing"><a href="posts/inspiration/">Inspiration</a></h2>
-			<b>June 04, 2025</b>
-			<p>Few things in life are as magical as the moment when inspiration grabs hold. Unbeknownst to you, for a split second, your mind becomes a conduit to the Ether, data instantly being downloaded into your brain.</p>
-			<a href="posts/inspiration" class="read-more-link">> Read More</a>
-		</div>
-
-		<div class="post-preview">
-			<h2 class="no-spacing"><a href="posts/why-would-you-reinvent-the-wheel/">Why Would You Reinvent The Wheel?</a></h2>
-			<b>May 15, 2025</b>
-			<p>It is a fair question. Why would you do that? For example, this blog, which you are currently looking at, was
-				designed from scratch using HTML, CSS, and a sprinkling of vanilla JS—that's it!</p>
-			<a href="posts/why-would-you-reinvent-the-wheel" class="read-more-link">> Read More</a>
+			<a href="posts/that-which-does-not-belong-to-us" class="body-link">Jun 08, 2025 > That Which Does Not Belong to Us</a>
+			<br>
+			<a href="posts/inspiration/" class="body-link">Jun 04, 2025 > Inspiration</a>
+			<br>
+			<a href="posts/why-would-you-reinvent-the-wheel/" class="body-link">May 15, 2025 > Why Would You Reinvent The Wheel?</a>
 		</div>
 
 	<footer id="footer"></footer>
@@ -38,9 +30,9 @@
 				.then(response => response.text())
 				.then(data => document.getElementById('header').innerHTML = data);
 
-			fetch('/templates/footer.html')
+			/* fetch('/templates/footer.html')
 				.then(response => response.text())
-				.then(data => document.getElementById('footer').innerHTML = data);
+				.then(data => document.getElementById('footer').innerHTML = data); */
 		});
 	</script>
 

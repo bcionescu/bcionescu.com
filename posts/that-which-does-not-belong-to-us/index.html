@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sometimes things do not go your way. No matter how much you want it, regardless of the work or effort you put in, it's still possible that you may not get what you want in the end.">
+	<title>That Which Does Not Belong to Us - bcionescu.com</title>
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+	<div id="header"></div>
+
+	<div class="container">
+		<br><br>
+		<center>
+			<br><br>
+			<h1 style="margin-top: 0;">That Which Does Not Belong to Us</h1>
+		</center>
+		<br>
+			<b><p>Jun 08, 2025</p></b>
+
+			<p>Sometimes things do not go your way. No matter how much you want it, regardless of the work or effort you put in, it's still possible that you may not get what you want in the end.</p>
+
+			<p>You may wonder why you didn't get it. Are you not good enough? Did someone else want it more? Did they put more work in? Ultimately, dwelling upon it burdens one's soul.</p>
+
+			<p>Stand up, dust yourself off, smile, and think, <i>Wow, what a learning experience that was!</i></p>
+
+			<p>Do your best to live in a way that is conformable to nature. The things within your control are thoughts, aversion, and pursuit. The things that belong to others are theirs to command, not yours.</p>
+
+			<p>Keep learning and choosing the hard path. Who knows what the gods may yet have in store for you?</p>
+		</div>
+
+	<footer id="footer"></footer>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			fetch('/templates/header.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('header').innerHTML = data);
+		});
+	</script>
+
+</body>
+
+</html>

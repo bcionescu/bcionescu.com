@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A developer's personal blog, written in HTML, and CSS, with a sprinkling of JS.">
+	<title>bcionescu.com</title>
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+	<div id="header"></div>
+
+	<div class="container">
+		<br><br>
+
+		<div class="post-preview">
+			<h2 class="no-spacing"><a href="posts/inspiration/">Inspiration</a></h2>
+			<b>June 04, 2025</b>
+			<p>Few things in life are as magical as the moment when inspiration grabs hold. Unbeknownst to you, for a split second, your mind becomes a conduit to the Ether, data instantly being downloaded into your brain.</p>
+			<a href="posts/inspiration" class="read-more-link">> Read More</a>
+		</div>
+
+		<div class="post-preview">
+			<h2 class="no-spacing"><a href="posts/why-would-you-reinvent-the-wheel/">Why Would You Reinvent The Wheel?</a></h2>
+			<b>May 15, 2025</b>
+			<p>It is a fair question. Why would you do that? For example, this blog, which you are currently looking at, was
+				designed from scratch using HTML, CSS, and a sprinkling of vanilla JS—that's it!</p>
+			<a href="posts/why-would-you-reinvent-the-wheel" class="read-more-link">> Read More</a>
+		</div>
+
+	<footer id="footer"></footer>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			fetch('/templates/header.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('header').innerHTML = data);
+
+			fetch('/templates/footer.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('footer').innerHTML = data);
+		});
+	</script>
+
+</body>
+
+</html>
