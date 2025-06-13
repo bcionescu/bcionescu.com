@@ -81,8 +81,13 @@ h2 {
 }
 
 a.body-link {
-	color: #FFBE69;
+	color: #fd9e22;
 	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a.body-link:hover {
+	color: #FFBE69;
 }
 
 .top-left-link {
