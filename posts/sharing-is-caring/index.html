@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The other day, I came up with a really nice config for Obsidian. I found incredibly useful plugins, tweaked the CSS just right, and set up the perfect hotkeys for my setup.">
+	<title>Sharing Is Caring - bcionescu.com</title>
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+	<div id="header"></div>
+
+	<div class="container">
+		<br><br>
+		<center>L
+			<br><br>
+			<h1 style="margin-top: 0;">Sharing Is Caring</h1>
+		</center>
+		<br>
+			<b><p>August 26, 2025</p></b>
+
+			<p>The other day, I came up with a really nice config for Obsidian. I found incredibly useful plugins, tweaked the CSS just right, and set up the perfect hotkeys for my setup.</p>
+
+			<p>I remember smiling from ear to ear as I turned around to show someone; however, there was nobody there. I was alone, in my room, and I realized that most of my friends are normies, and so they’re not into this kind of stuff.</p>
+
+			<p>For a while now, I had been toying with the idea of starting a new YouTube channel, specifically about tech stuff like Vim, Bash, mechanical keyboards, Obsidian, etc., all wrapped up in a nice ASMR package.</p>
+
+			<p>Finally, the time has come, and <a href="https://youtu.be/6tsuMWAarqo" class="body-link" target="_blank" rel="noopener noreferrer">my first video</a> is already getting a bit of attention, which is quite heartening. It means that people are finding value in it, and that makes me very happy.</p>
+
+			<p>I know that we should not seek happiness or validation from externals, but man, it feels good just the same.</p>
+		</div>
+
+	<footer id="footer"></footer>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			fetch('/templates/header.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('header').innerHTML = data);
+
+		});
+	</script>
+
+</body>
+
+</html>
