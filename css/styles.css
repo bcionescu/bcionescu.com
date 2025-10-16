@@ -66,7 +66,7 @@ h2 {
 }
 
 .post-preview a:hover {
-	color: #FFBE69
+	color: #FFBE69;
 }
 
 .container {
@@ -90,22 +90,33 @@ a.body-link:hover {
 	color: #FFBE69;
 }
 
+.top-links-container {
+	display: flex;
+	align-items: center;
+	padding: 0 1.5rem;
+	height: 3rem;
+	position: relative;
+	gap: 1.5rem;
+}
+
 .top-left-link {
-	position: absolute;
-	top: 1rem;
-	left: 1.5rem;
 	color: white;
 	text-decoration: none;
 	font-size: 16px;
 	transition: color 0.3s ease;
+	position: static;
+	flex-shrink: 0;
+}
+
+.top-left-link:hover {
+	color: #FFBE69;
 }
 
 .top-center-link {
 	position: absolute;
-	top: 1rem;
 	left: 50%;
-	transform: translateX(-50%);
-	/* color: #DEDAF2; */
+	top: 50%;
+	transform: translate(-50%, -50%);
 	color: white;
 	text-decoration: none;
 	font-size: 16px;
@@ -114,18 +125,6 @@ a.body-link:hover {
 
 .top-center-link:hover {
 	color: #FFBE69;
-}
-
-.top-left-link:hover {
-	color: #FFBE69;
-}
-
-.top-left-link:nth-child(1) {
-	left: 1.5rem;
-}
-
-.top-left-link:nth-child(2) {
-	left: 5rem;
 }
 
 a.read-more-link {
@@ -153,7 +152,7 @@ footer p {
 	margin: 0;
 }
 
-/* Media query for tablets */
+/* Tablets */
 @media screen and (max-width: 1024px) {
 
 	.header,
@@ -174,19 +173,16 @@ footer p {
 		right: 1.5rem;
 		transform: none;
 	}
-
 }
 
-/* Media query for smaller tablets */
+/* Smaller tablets */
 @media screen and (max-width: 550px) {
-
 	h1 {
 		font-size: 45px;
 	}
-
 }
 
-/* Media query for mobile phones */
+/* Mobile phones */
 @media screen and (max-width: 480px) {
 
 	.header,
@@ -217,3 +213,4 @@ footer p {
 		color: #FFBE69;
 	}
 }
+
