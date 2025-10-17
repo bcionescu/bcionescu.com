@@ -167,11 +167,16 @@ footer p {
 		padding: 2rem 1rem;
 	}
 
+	/* Move center link to right side cleanly */
+	.top-links-container {
+		justify-content: space-between;
+	}
+
 	.top-center-link {
-		position: absolute;
-		left: auto;
-		right: 1.5rem;
+		position: static;
 		transform: none;
+		order: 2;
+		margin-left: auto;
 	}
 }
 
@@ -197,11 +202,16 @@ footer p {
 		padding: 2rem 1rem;
 	}
 
+	/* same mobile fix as tablet for alignment */
+	.top-links-container {
+		justify-content: space-between;
+	}
+
 	.top-center-link {
-		position: absolute;
-		left: auto;
-		right: 1.5rem;
+		position: static;
 		transform: none;
+		order: 2;
+		margin-left: auto;
 	}
 
 	h1 {
@@ -213,4 +223,3 @@ footer p {
 		color: #FFBE69;
 	}
 }
-
