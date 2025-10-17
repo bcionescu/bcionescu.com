@@ -32,6 +32,12 @@ body {
 	color: white;
 	font-size: 18px;
 	font-family: 'iAWriterMono', Consolas, Menlo, Monaco, monospace;
+	overflow: auto;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .dateread {
