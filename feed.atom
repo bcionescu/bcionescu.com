@@ -12,14 +12,325 @@
 </author>
 
 <entry>
-  <title>...</title>
-  <link href="..."/>
-  <id>...link</id>
-  <updated>2025-10-24T10:00:00Z</updated>
+  <title>If You Use AI, You Will Be Left Behind</title>
+  <link href="https://www.bcionescu.com/posts/if-you-use-ai-you-will-be-left-behind"/>
+  <id>https://www.bcionescu.com/posts/if-you-use-ai-you-will-be-left-behind</id>
+  <updated>2025-10-18T00:00:00Z</updated>
   
   <content type="html">
     <![CDATA[
-      <p>Welcome to my latest post! Here’s some text.</p>
+		<div class="video-container">
+		  <iframe
+			  src="https://www.youtube.com/embed/c6cFcYFn_Hg"
+			  title="If You Use AI, You Will Be Left Behind"
+			  frameborder="0"
+			  allowfullscreen
+		  ></iframe>
+		</div>
+		<br>
+
+		<p>AI is unironically making you stupid.</p>
+
+		<p>Since ChatGPT blew up a few years ago, the phrase <i>Learn to use AI, or be left behind</i> has been repeated adnauseum. I wonder how little experience someone must have with learning to seriously advance this idea.</p>
+
+		<p>After all, how long do these people think it would take to "learn AI?". To be clear, the people who parrot this phrase aren't talking about studying machine learning, or building your own models; no. They're talking about learning how to prompt.</p>
+			
+		<p>So, if I were to decipher their meaning, what they're <i>actually</i> saying is that you need to learn to proompt, and you need to do it <i>now</i>, Grandad.</p>
+
+		<p>While putting myself at risk of sounding arrogant, I've never had much difficulty picking up skills, and I suspect that if you're reading this, neither have you.</p>
+
+		<p>You can learn to prompt and get good at something like Cursor in a free afternoon. Besides, isn't AI always changing? Isn't that what these people keep saying, that every few months, a paradigm shift occurs, and we are all only six months away at most from losing our jobs?</p>
+
+		<p>It's funny how the people who say these things are either heavily invested in AI, or they're trying to sell you something that will protect you from AI; some kind of course, supposedly chock-full of forbidden knowledge that will allow you to save yourself, as everyone around you gets fired.</p>
+
+		<p>In reality, if AI will indeed work as advertised, something which is currently far from a certainty, I can always "learn" how to use it later, given the speed of change, and my ability to learn.</p>
+
+		<p>Let's take a step away from a moment, and pretend that it's the 1950s. We've just finished smoking cigars in a stuffy boardroom, and we make our way to this place that's just opened across the road, where teenagers on rollerskates are serving us hamburgers and Coca-Cola.</p>
+
+		<p>As we smoke our early-afternoon cigarettes indoors, the conversation steers towards flying. How crazy is it that in only about fifty years, we went from the first flight of the Wright brothers to now being able to fly from New York to London in just under seven hours?</p>
+
+		<p>What will they come up with in the <i>next</i> fifty years? Where will we be by the year 2000? Well, given the speed at which technology advances, we will <i>at the very least</i> have bases on the Moon, right?</p>
+
+		<p>If we were having this conversation in the 50s, we could absolutely be excused for having this take. After all, the progress up until that point was phenomenal.</p>
+
+		<p>However, over the next ten years, by the mid-60s, commercial planes hit their peak. Over the following 60 years, no real improvements have occurred, unless you count paying through the nose for WiFi on some flights.</p>
+
+		<p>Just because the numbers went up before, that doesn't mean that number will go up forever. Despite many such examples, people keep insisting that AI domination is a given.</p>
+
+		<p>One of the reasons why I find this kind of rhetoric frustrating is that it is often harmful. Convincing people that A) everything is lost, and we'll all be turned into paper clips, or B) you don't have to learn anything, just use AI, is causing serious damage.</p>
+
+		<p>Option A is easy to dismiss as nonsense, and most people do; however, option B is far more pernicious. Why learn anything when you can just use AI?</p>
+
+		<p>The answer? Speed, unironically.</p>
+
+		<p><i>What?</i> You might ask. How can <i>not</i> using AI make you faster? I can pull up ChatGPT right now, and within moments, I can have paragraphs of knowledge ready for me to consume.</p>
+
+		<p>Now, yes, AI can be faster, assuming that <i>you don't know anything</i>. For example, I know nothing about microbiology. It would be faster for me to ask an LLM about something related to microbiology, and assuming that the answer is correct, and not subtly incorrect, or outright hallucinated, yes, that is faster than looking up the answer, and learning it the old way.</p>
+
+		<p>That being said, when it comes to your own field, the domain in which you make your living, <i>knowing</i> is always faster.</p>
+
+		<p>You have more bandwidth between your conscious mind and your stored knowledge than between you and the AI. If two people have to solve a problem, the person who just <i>knows</i> stuff is much more likely to solve the problem quicker than someone who has to constantly ask the AI questions.</p>
+
+		<p>Let's say we're working on a programming problem to do with images. How is image data stored, as far as machines go? How is color represented?</p>
+
+		<p>Well, there's this thing called RGB, which is an additive color model that uses various combinations of Red, Green, and Blue to achieve pretty much any shade of color you can imagine.</p>
+
+		<p>Each color in the RGB model can be set to any value from 0 to 255. If all three colors are set to 0, the result is black, or technically, the </i>absence</i> of light. If all three colors are set to 255, you get white.</p>
+
+		<p>If you play around with an RGB color picker, a setting of `rgb(255, 255, 0)` will result in yellow. Need some violet? No problem, just do `rgb(161, 66, 255)`.</p>
+
+		<p>So, how is this used to represent an image?</p>
+
+		<p>Depending on the file format, images can be represented in different ways. For example, a bitmap file, or .bmp, like in MS Paint, is a file where every single pixel has its RGB data stored (like a map). This results in a large file, but the image is represented very accurately.</p>
+
+		<p>Other formats, such as .jpg, use compression, losing some data, but still representing the image somewhat accurately, as long as you don't zoom in too far.</p>
+
+		<p>I just know this. I didn't have to ask an AI, because I learnt this at some point, but if you didn't, you'd have to ask Chat GPT, which could also hallucinate.</p>
+
+		<p>Knowing something will always be faster than asking the Oracle. It's ok to memorize stuff. It's ok to know how things work, and the existence of LLMs is not an excuse to not have to learn anything anymore. In fact, it's a really good reason to <i>start</i> learning!</p>
+
+		<p>Now, this doesn't mean that you should never use AI; it just means that the skill of just using an AI has zero economic value, and if it doesn't already, oh, it soon will.</p>
+
+		<p>You heard me right.</p>
+
+		<p>If you only "know" as much as the AI knows, you're doomed, because then you're basically just squishy middleware between your boss and the AI. Statistically, your boss would love to fire you and replace you with someone more desperate. I mean, if both of you are just LLM middlemen, why not?</p>
+
+		<p>Surprisingly, AI has not raised the bar for knowledge; it has lowered it.</p>
+
+		<p>Everyone loves to dunk on Zoomers for not knowing anything, and there is some truth to that. The more they rely on AI, the more cooked they are, and the brutal part of this is that they have very few people amongst their peers to compare themselves to. If everyone in a generation uses AI, they won't notice that they are unable to reason until it is likely too late.</p>
+
+		<p>Look, I get it. I went to school too, and I know how much it sucks. You're stuck in a room all day with other kids that you don't like, being bossed around by adults who often only know just enough about their field to get through their classes.</p>
+
+		<p>I, too, remember how many times I was told to memorize random poems and facts, painfully aware of the fact that my time was being criminally wasted. As a result, I had a very bleak view of memorization for many years after.</p>
+
+		<p>Here's the thing, though. Just because some teacher soured you on memorization, that doesn't mean that memorizing is a useless skill. You <i>should</i> memorize things. You should learn them and repeat them over and over in your head to the point where I can grab your shoulders, shake you from sleep, and you'd immediately be able to output information.</p>
+
+		<p>Given how low the bar is now when it comes to learning, just knowing stuff will put you miles ahead. Knowing stuff now has value once again, and hey, if your boss forces you to use AI, whatever, you're still ahead of the game, because you KNOW stuff.</p>
+
+		<p>Do you disagree? Let's assume that you're right, and AI will continue to get better and better. Even if that happens, I'll still be ahead of you, as my learning and reasoning skills will not be atrophied, and thus, I will be able to navigate problems with ease. You, on the other hand, will be ripping your hair out, trying to figure out why your vibecoded lines of code aren't working.</p>
+
+		<p><b>10</b> <i>This is still not working. Fix this, please, with sugar on top, or the world will end! Can you help me, please?</i></p>
+
+		<p><b>20</b> <i>Certainly! Oh, I now see my error—here is the new, correct code.</i></p>
+
+		<p><b>30</b> The AI produces the exact same code</p>
+
+		<p><b>40</b> GOTO 10</p>
+
+		<p>I think the AI bubble will burst, sooner rather than later. AI can not do your job, and people will realize this eventually, but until then, many more people will be fired, and have their lives ruined due to their bosses being conned into thinking AI can replace their workforce.</p>
+
+		<p>When the bubble pops, there will be a lot of pain, but there will also be opportunities. The people who have been let go will retrain, and some will retire, leaving massive gaps, which can only be filled by capable humans.</p>
+
+		<p>When that happens, those of us who kept learning will reap unimaginable benefits.</p>
+
+		<p>Don't be silly. Go and learn something today.</p>
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>Sharing Is Caring</title>
+  <link href="https://www.bcionescu.com/posts/sharing-is-caring"/>
+  <id>https://www.bcionescu.com/posts/sharing-is-caring</id>
+  <updated>2025-08-26T00:00:00Z</updated>
+  
+  <content type="html">
+    <![CDATA[
+			<p>The other day, I came up with a really nice config for Obsidian. I found incredibly useful plugins, tweaked the CSS just right, and set up the perfect hotkeys for my setup.</p>
+
+			<p>I remember smiling from ear to ear as I turned around to show someone; however, there was nobody there. I was alone, in my room, and I realized that most of my friends are normies, and so they’re not into this kind of stuff.</p>
+
+			<p>For a while now, I had been toying with the idea of starting a new YouTube channel, specifically about tech stuff like Vim, Bash, mechanical keyboards, Obsidian, etc., all wrapped up in a nice ASMR package.</p>
+
+			<p>Finally, the time has come, and <a href="https://youtu.be/6tsuMWAarqo" class="body-link" target="_blank" rel="noopener noreferrer">my first video</a> is already getting a bit of attention, which is quite heartening. It means that people are finding value in it, and that makes me very happy.</p>
+
+			<p>I know that we should not seek happiness or validation from externals, but man, it feels good just the same.</p>
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>Sweet Distractions</title>
+  <link href="https://www.bcionescu.com/posts/sweet-distractions"/>
+  <id>https://www.bcionescu.com/posts/sweet-distractions</id>
+  <updated>2025-08-13T00:00:00Z</updated>
+  
+  <content type="html">
+    <![CDATA[
+			<p>Centuries ago, music was commissioned by kings and queens to be performed at their court. This would inspire awe in the listeners and validate their divine right to rule. As the music permeated the air, the monarch would become imbued with its divine essence.</p>
+
+			<p>Music was written in order to be listened to by very few people. Once mass-producing records became feasible, the motive changed. The goal now is to make you feel a certain way, making you want to listen to more music.</p>
+
+			<p>This, of course, means that you are exchanging your finite time and paying for it with money, which you likely also obtained by selling your time.</p>
+
+			<p>What the music does to you, psychologically or spiritually, is irrelevant. The pretence that music should be good for you was discarded decades ago. Now, it’s simply something sweet to chew on, only for it to be discarded minutes later.</p>
+
+			<p>Now, know that this is coming from someone who studied music production at University. I am aware of the irony. I’m not even saying that you should avoid music altogether. All I am saying is that you should consider what meaning the lyrics carry, and whether listening to music is beneficial to you.</p>
+
+			<p>Personally, I can not focus on anything else when music is playing. I’ve never been able to relate to people who can work with music on. They might say that the music makes them more productive. For physical work, maybe, but for knowledge work?</p>
+
+			<p>I suspect they would be a lot more productive if they were not psychologically dependent on the music in order to work.</p>
+
+			<p>Do your best to remove distractions and return to a more wild state of mind, where you begin to focus on a task, and the world around you grows quiet.</p>
+			
+			<p>Later edit: Since the post went up, I had another look through it, and I have decided that I should include some exceptions to this. There are times when I do struggle to focus, in which case I've found brain.fm to be very useful.</p>
+
+			<p>When it comes to writing prose, especially fiction, I do find that on occasion, listening to film OSTs can make the process easier. The above is an ideal, something that I strive for, and maybe I should be more careful when it comes to taking hardline stances such as these.</p>
+
+			<p>Food for thought.</p>
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>Of Minimalism</title>
+  <link href="https://www.bcionescu.com/posts/of-minimalism"/>
+  <id>https://www.bcionescu.com/posts/of-minimalism</id>
+  <updated>2025-07-19T10:00:00Z</updated>
+  
+  <content type="html">
+    <![CDATA[
+			<p>What is the cost of owning something? You might say that X items cost you Y something. That's fair; however, is that the full story?</p>
+
+			<p>In order to accommodate stuff, or <i>kipple</i>, as Philip K. Dick called it in his 1968 novel, <i>Do Androids Dream of Electric Sheep?</i>—things which seemingly appear out of nowhere, and accumulate at a surprising rate—what sacrifices must you make?</p>
+
+			<p>The economic reality of owning a bunch of kipple is that you now need to have a larger home in order to accommodate it. Even worse, people will rent storage units for their kipple, meaning that you are essentially making monthly payments on things that you already own—in perpetuity.</p>
+
+			<p>In addition to the financial cost, there is the mental cost of having stuff scattered everywhere. You can peer into someone's mind by looking at their home.</p>
+
+			<p>I would prefer to have a clear, organised mind, and so, I begin by organising my surroundings. Around six years ago, I decided to become a minimalist; not because I needed to, in fact, my income was rising quite precipitously at the time, but because I knew that it would improve my life greatly.</p>
+
+			<p>I went around my room, and I started putting things in piles. I started with this mystery charger I've been holding on to for four years, which I'm not quite sure what it belongs to. Yeah, that can go. This broken iPod? Yup, on top of the pile it lands.</p>
+
+			<p>Soon I found myself sitting in a much emptier room, but somehow fuller at the same time. The intentional use of space made my abode feel that much more familiar and warm, like a home, instead of some room I was renting, so I could keep my stuff.</p>
+
+			<p>In the intervening years, I travelled quite a bit. I'd go from the UK to Romania, and then Portugal, and then back, and then Spain, and then Finland, etc.</p>
+
+			<p>This time served as an even better way to practice minimalism. I could only take so many items with me. At my leanest, I essentially just had my backpack. Although quite large, it fit in the overhead compartments on planes, and it contained, well, my entire life.</p>
+
+			<p>My laptop so that I could work, my camera, my clothes, my e-book reader, and some toiletries. That was pretty much it. It is quite eye-opening when you can only take one backpack with you, plus a smaller bag underneath the seat in front of you.</p>
+
+			<p>This does not mean that you shouldn't own anything, or that you should throw away important mementoes. What it does mean is that, if you want a freer life, you should view your possessions with a critical eye. Additionally, you should really think before buying anything new.</p>
+
+			<p>Will this purchase improve my quality of life, or will it simply become stuff, something that I need to clean, repair, maintain, and replace?</p>
+
+			<p>So, which items are truly important to you?</p>
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>Always Choose Suffering</title>
+  <link href="https://www.bcionescu.com/posts/always-choose-suffering"/>
+  <id>https://www.bcionescu.com/posts/always-choose-suffering</id>
+  <updated>2025-06-27T00:00:00Z</updated>
+  
+  <content type="html">
+    <![CDATA[
+	    <p>In Eastern Europe, the default type of humour is that of the dark variety. This may become evident, once you consider the deeply troubled history of said corner of Europe. I remember this very vividly <a href="../posts/of-stimuli" class="body-link" target="_blank" rel="noopener noreferrer">growing up</a>. Whenever something bad happened, people would always laugh. Not because it was necessarily funny, but because the alternative was unacceptable.</p>
+
+	    <p>The idea that life contains much suffering is not only accepted, but woven into the culture itself. Many people born in such circumstances understand that suffering is not only unavoidable, but to be sought out; that you should always choose the hard path.</p>
+
+	    <p>On an ideal day, I begin by doing two things: I go out for a long walk/hike first thing in the morning, and then I take a cold shower for two to three minutes. The cold water is both scary and exhilarating, both painful and joyful at the same time.</p>
+
+	    <p>As the deluge of icy cold water whips my skin, I find myself questioning my decision, and tensing up my body, only to find myself laughing moments later. If I could see myself at that moment, I know that my face would radiate pure joy—not <i>despite</i> the suffering, but <i>because</i> of it.</p>
+
+	    <p>The relationship between suffering and joy also shows up when I'm doing something physically demanding, like walking up a very tall and steep hill. I start to breathe heavily as I inch closer to the top, only to find myself smiling once I get over it.</p>
+
+	    <p>That same relationship is not always obvious when it comes to other pursuits, such as getting better at programming.</p>
+
+	    <p>I <i>really</i> <a href="https://github.com/bcionescu" class="body-link" target="_blank" rel="noopener noreferrer">enjoy programming</a>. It allows me to express myself in a way that no other medium permits. However, this does not mean that every moment has to be enjoyable. Occasionally I come across a concept, or a problem, and I get stuck. This becomes frustrating, and suffering begins. After a while I figure out the solution, solve the problem, and then—bliss.</p>
+
+	    <p>If I avoided the suffering part, instead of understanding that it is necessary, I would never get to savour the feeling of bliss.</p>
+
+	    <p>This next part is for me, as well as for the reader. Always remember that the easy path is actually the hard part in disguise. Whenever presented with a choice, always choose suffering.</p>
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>Of Stimuli</title>
+  <link href="https://www.bcionescu.com/posts/of-stimuli"/>
+  <id>https://www.bcionescu.com/posts/of-stimuli</id>
+  <updated>2025-06-15T00:00:00Z</updated>
+  
+  <content type="html">
+    <![CDATA[
+	<div class="video-container">
+	  <iframe
+		  src="https://www.youtube.com/embed/fyT3Y2Cbyrw"
+		  title="your brain is broken; here's how to fix it"
+		  frameborder="0"
+		  allowfullscreen
+	  ></iframe>
+	  </div>
+	<br>
+
+	<p>The ability to pay attention is a superpower; however, this was not always the case. I recall growing up in rural Romania in the 90s. Looking back, my upbringing was drastically different from that of kids growing up today.</p>
+
+	<p>Boredom was an ever-present weight. If I turned on the TV, I had access to three channels, one of which I could not understand, as it was in Bulgarian. Most of the daytime shows were boring, so that was a no-go.</p>
+
+	<p>The second-easiest source of stimulation was looking through my grandparents' books, but even though I was able to read them, I was far too young to understand or appreciate their contents. Greek myths who? I wanted fun.</p>
+
+	<p>The only real source of stimulation was playing outside, usually with other kids. Riding my one-speed communist-era bicycle down a hill as fast as possible, often nearly into incoming traffic, falling off it and getting hurt, all of it was done to abate boredom.</p>
+
+	<p>As time passed, I grew a bit older and discovered that books were great fun. Even though social media was starting to emerge, I had already passed the point where it could completely take over my life.</p>
+
+	<p>Fast-forward to today. I am in my early 30s, and I have a superpower. Unlike many others, I can sit down and read a book without it feeling torturous. I often go on three or four-hour walks, and I spend the entire time either inside my head, thinking, or meditating, and clearing my mind.</p>
+
+	<p>I don't listen to music or even audiobooks when on walks. Instead, I do my best to exist in the moment. The more people I interact with, the more I understand how rare this is.</p>
+
+	<p>Not looking at my phone constantly and not requiring instant stimulation all the time enables me to sit down and focus on something for an extended period. Recently, I decided to take learning programming seriously and make significant progress.</p>
+
+	<p>I joined <a href="https://www.boot.dev/u/bcionescu" class="body-link" target="_blank" rel="noopener noreferrer">boot.dev</a>, and within a few days, I blitzed through a good portion of the material, often going at it for multiple hours at a time. Not many people can do this, so I strive to develop this skill.</p>
+
+	<p>I do my best to stay away from easy stimulation. I don't scroll through social media, I don't mindlessly watch YouTube, I rarely listen to music, and I seldom play any video games.</p>
+
+	<p>Instead, I go for long walks, train my body, practice physical flexibility, read, learn, and mindfully consume content that is good for me.</p>
+
+	<p>This may seem boring from the outside, as if I'm missing out on things. On the contrary, I am finally starting to live my life to the fullest.</p>
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>That Which Does Not Belong to Us</title>
+  <link href="https://www.bcionescu.com/posts/that-which-does-not-belong-to-us"/>
+  <id>https://www.bcionescu.com/posts/that-which-does-not-belong-to-us</id>
+  <updated>2025-06-08T00:00:00Z</updated>
+  
+  <content type="html">
+    <![CDATA[
+		    <p>Sometimes things do not go your way. No matter how much you want it, regardless of the work or effort you put in, it's still possible that you may not get what you want in the end.</p>
+
+		    <p>You may wonder why you didn't get it. Are you not good enough? Did someone else want it more? Did they put more work in? Ultimately, dwelling upon it burdens one's soul.</p>
+
+		    <p>Stand up, dust yourself off, smile, and think, <i>Wow, what a learning experience that was!</i></p>
+
+		    <p>Do your best to live in a way that is conformable to nature. The things within your control are thoughts, aversion, and pursuit. The things that belong to others are theirs to command, not yours.</p>
+
+		    <p>Keep learning and choosing the hard path. Who knows what the gods may yet have in store for you?</p>
+    ]]>
+  </content>
+</entry>
+
+<entry>
+  <title>Inspiration</title>
+  <link href="https://www.bcionescu.com/posts/inspiration/"/>
+  <id>https://www.bcionescu.com/posts/inspiration/</id>
+  <updated>2025-06-04T00:00:00Z</updated>
+  
+  <content type="html">
+    <![CDATA[
+			<p>Few things in life are as magical as the moment when inspiration grabs hold. Unbeknownst to you, for a split second, your mind becomes a conduit to the Ether, data instantly being downloaded into your brain.</p>
+
+			<p>When this happens, you feel it in your bones. You know that whatever you had planned that day is likely going out the window, because if you do not scratch this itch, you may very well go mad.</p>
+
+			<p>That initial data transfer acts as jet fuel, allowing you to immediately traverse great distances in terms of productivity. For the next few hours, you don't need meditation or alpha waves; you need to be left alone, so that you can transcode the data stream into digital form, either as notes or as code.</p>
+
+			<p>That is how this blog came about. I had read <a href="https://world.hey.com/dhh" class="body-link" target="_blank" rel="noopener noreferrer">DHH</a> and <a href="https://world.hey.com/jason" class="body-link" target="_blank" rel="noopener noreferrer">Jason Friend's</a> blogs and enjoyed their clean look. Once I saw Sylvan Franklin's video, <a href="https://www.youtube.com/watch?v=ftxFSjqh79Q" class="body-link" target="_blank" rel="noopener noreferrer">These developer portfolio websites are trash</a>, the two connected in my mind, and the spark occurred.</p>
+
+			<p>If you quiet your mind, you may be able to feel the next one coming.</p>
     ]]>
   </content>
 </entry>
