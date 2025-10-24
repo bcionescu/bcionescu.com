@@ -33,14 +33,6 @@
   <content type="html">
     <![CDATA[
 	<div class="container">
-		<br><br>
-		<center>
-			<br><br>
-			<h1 style="margin-top: 0;">Why Would You Reinvent The Wheel?</h1>
-		</center>
-		<br>
-			<b><p>May 15, 2025</p></b>
-
 			<p>It is a fair question. Why <i>would</i> you do that? For example, this blog, which you are currently looking at, was designed from scratch using HTML, CSS, and a sprinkling of vanilla JS—that's it!</p>
 
 			<p>Why not use the myriad of other tools available to achieve this? The answer is simple: I was curious. If I had to create this blog from scratch, how would <i>I</i> do it? What makes up a blog? Do I need all of the features that generally come with one?</p>
