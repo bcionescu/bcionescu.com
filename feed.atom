@@ -4,12 +4,35 @@
 <title>bcionescu.com</title>
 <link href="https://bcionescu.com.com/" />
 <link href="https://bcionescu.com/atom.xml" rel="self" />
-<updated>2025-12-19T19:45:00Z</updated>
+<updated>2025-12-19T21:36:00Z</updated>
 <id>https://bcionescu.com/</id>
 <author>
 <name>Cristian Ionescu</name>
 <email>christian@bcionescu.com</email>
 </author>
+
+<entry>
+  <title>You Don't Matter</title>
+  <link href="https://www.bcionescu.com/posts/you-dont-matter"/>
+  <id>https://www.bcionescu.com/posts/you-dont-matter</id>
+  <updated>2025-11-23T10:00:00Z</updated>
+
+  <content type="html">
+    <![CDATA[
+      <div class="video-container"><iframe src="https://www.youtube.com/embed/xtBDX_xqrh0" frameborder="0" allowfullscreen></iframe></div>
+
+      <p>If you don’t matter, what does?</p>
+
+      <p>The answer is that it is you, tomorrow, that matters, not the version of you today, reading this. We live in a society where every desire needs to be instantly fulfilled, or else we feel frustrated.</p>
+
+      <p>Everything has to be now, now, now, and anything less than that is simply unacceptable. The issue is that this seems to be making us more impulsive.</p>
+
+      <p>The best thing that you can do is reject this impulse and, instead, give the future you a gift. Are you technically done with your work for today, but there’s always more that you can do for tomorrow?</p>
+
+      <p>Spend ten more minutes working today, and save the you of tomorrow the work. Future you will thank you for it. Give such gifts to yourself periodically, throughout your life, and the next thing you know, everything will have improved.</p>
+    ]]>
+  </content>
+</entry>
 
 <entry>
   <title>Gen Z Has No Reading Ability</title>

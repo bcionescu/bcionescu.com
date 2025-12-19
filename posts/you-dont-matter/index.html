@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="If you don't matter, what does?">
+	<title>You Don't Matter - bcionescu.com</title>
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+	<div id="header"></div>
+
+	<div class="container">
+	<br><br>
+	<center>
+		<h1 style="margin-top: 0;">You Don't Matter</h1>
+	</center>
+
+  <div class="video-container"><iframe src="https://www.youtube.com/embed/xtBDX_xqrh0" frameborder="0" allowfullscreen></iframe></div>
+	<br>
+
+	<b><p>November 23, 2025</p></b>
+
+  <p>If you don’t matter, what does?</p>
+
+  <p>The answer is that it is you, tomorrow, that matters, not the version of you today, reading this. We live in a society where every desire needs to be instantly fulfilled, or else we feel frustrated.</p>
+
+  <p>Everything has to be now, now, now, and anything less than that is simply unacceptable. The issue is that this seems to be making us more impulsive.</p>
+
+  <p>The best thing that you can do is reject this impulse and, instead, give the future you a gift. Are you technically done with your work for today, but there’s always more that you can do for tomorrow?</p>
+
+  <p>Spend ten more minutes working today, and save the you of tomorrow the work. Future you will thank you for it. Give such gifts to yourself periodically, throughout your life, and the next thing you know, everything will have improved.</p>
+    
+</div>
+
+	<footer id="footer"></footer>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			fetch('/templates/header.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('header').innerHTML = data);
+
+		});
+	</script>
+
+</body>
+
+</html>
