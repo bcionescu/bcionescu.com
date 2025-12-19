@@ -20,10 +20,13 @@
   <content type="html">
     <![CDATA[
 
-    <div class="video-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/0nQZgE2jAMg" frameborder="0" allowfullscreen></iframe>
-      </div>
-    <br>
+		<div class="video-container">
+		  <iframe
+			  src="https://www.youtube.com/embed/0nQZgE2jAMg"
+			  frameborder="0"
+			  allowfullscreen
+		  ></iframe>
+		</div>
 
     <p>All bets are off; you should move back in with your parents if you can.</p>
 
