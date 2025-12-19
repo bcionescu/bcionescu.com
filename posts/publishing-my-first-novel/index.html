@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Over the last six months, I’ve been working on my first Sci-Fi novel. If you want to be an ARC reader, you can grab a free copy of it before it goes live on the 2nd of January, 2026.">
+	<title>I'm Publishing My First Novel - bcionescu.com</title>
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+	<div id="header"></div>
+
+	<div class="container">
+	<br><br>
+	<center>
+		<h1 style="margin-top: 0;">I'm Publishing My First Novel</h1>
+	</center>
+
+  <!-- video -->
+	<br>
+
+	<b><p>December 20, 2025</p></b>
+
+  <p>Over the last six months, I’ve been working on my first Sci-Fi novel. If you want to be an ARC reader, you can <a href="https://dl.bookfunnel.com/u32npyhm6k" class="body-link" target="_blank" rel="noopener noreferrer">grab a free copy</a> of it before it goes live on the 2nd of January, 2026.</p>
+
+  <p>Here’s the blurb.</p>
+
+  <b>Turning the tin around, I can see the name Adam—my name—etched into the back. This is a dangerous thing to do, but it is my way of silently fighting back. If one knows that he is not allowed a name, like an animal in a factory farm, inevitably, he finds one for himself.</b>
+  <p>Set deep underneath California, centuries after a cataclysmic event, <i>Protectorate</i> is the story of citizen A-376, who is tasked with rooting out a rebel faction that threatens to end the life of everyone he has ever known.</p>
+
+  <p>His reward? A life extension which would allow him to live past the age of twenty-eight.</p>
+    
+</div>
+
+	<footer id="footer"></footer>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			fetch('/templates/header.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('header').innerHTML = data);
+
+		});
+	</script>
+
+</body>
+
+</html>
