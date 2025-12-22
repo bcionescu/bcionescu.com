@@ -40,6 +40,12 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.bottom-links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .dateread {
 	display: flex;
 	justify-content: space-between;
