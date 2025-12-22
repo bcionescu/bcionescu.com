@@ -4,12 +4,54 @@
 <title>bcionescu.com</title>
 <link href="https://bcionescu.com.com/" />
 <link href="https://bcionescu.com/atom.xml" rel="self" />
-<updated>2025-12-20T16:35:00Z</updated>
+<updated>2025-12-22T15:30:00Z</updated>
 <id>https://bcionescu.com/</id>
 <author>
 <name>Cristian Ionescu</name>
 <email>christian@bcionescu.com</email>
 </author>
+
+<entry>
+  <title></title>
+  <link href="https://www.bcionescu.com/posts/"/>
+  <id></id>
+  <updated>2025-12-22T10:00:00Z</updated>
+
+  <content type="html">
+    <![CDATA[
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/O4a1c5fT8F4" title="" frameborder="0" allowfullscreen></iframe></div>
+
+    <p>Due to AI companies gobbling up all the hardware they can get their hands on, the price of computers is going up. RAM, which is one of the most essential components in a computer, has more than doubled in price in the <a href="https://www.techradar.com/pro/why-is-ram-so-expensive-right-now-its-more-complicated-than-you-think" class="body-link" target="_blank" rel="noopener noreferrer">past few weeks</a>.</p>
+
+    <p>The next time you buy a computer, you will feel this cost increase, as all of it will be entirely offloaded onto you.</p>
+
+    <p>So, what do you do about it?</p>
+
+    <p>Simple. You buy an older laptop, and you install Linux on it.</p>
+
+    <p>I know, this may sound terrifying if you’ve never tried it. Isn’t Linux for nerds, you might ask? Maybe you saw someone use Linux back in 2006, and you thought it looked ugly.</p>
+
+    <p>Those days are gone. Now, Linux can look as beautiful as macOS. There are many versions of it out there, <a href="https://omarchy.org/" class="body-link" target="_blank" rel="noopener noreferrer">Omarchy</a> being one of the most popular recently.</p>
+
+    <p>You can buy a cheap laptop for $200, install Linux on it, and you can get straight to work. If you’re like me and kept your old MacBook Air from 2015, you can even install it on that.</p>
+
+    <p>Yes, some apps that you can only run on macOS will not work; however, you have many beautiful options, such as <a href="https://obsidian.md" class="body-link" target="_blank" rel="noopener noreferrer">Obsidian</a>, which is what I’m writing this post in.</p>
+
+    <p>The transition will not be painless. Some applications that you use on your MacBook will run on Linux, and some will not. You may have to change things slightly.</p>
+
+    <p>However, what you will not have to do is pay 200% more for a new computer.</p>
+
+    <p>If your MacBook still works fine, this is the best time to start exploring Linux. It’s free, and it’s lightweight, meaning that it will run well on a ThinkPad from 2018, for example.</p>
+
+    <p>Sure, you may not find its built-in keyboard to be as nice; however, if you’re doing a lot of writing, you should have an external keyboard anyway.</p>
+
+    <p>This post is not an exhaustive list of all the benefits of Linux, but it is an early warning. Computer parts will likely continue to get more and more expensive over the next few years, as tech companies feed AI.</p>
+
+    <p>If you don’t want to end up paying the price of a small car for a computer, Linux might just be the way forward.</p>
+
+    ]]>
+  </content>
+</entry>
 
 <entry>
   <title>You Need Frustration Tolerance</title>
