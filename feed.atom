@@ -4,12 +4,37 @@
 <title>bcionescu.com</title>
 <link href="https://bcionescu.com.com/" />
 <link href="https://bcionescu.com/atom.xml" rel="self" />
-<updated>2025-12-22T15:30:00Z</updated>
+<updated>2025-12-25T00:26:00Z</updated>
 <id>https://bcionescu.com/</id>
 <author>
 <name>Cristian Ionescu</name>
 <email>christian@bcionescu.com</email>
 </author>
+
+<entry>
+  <title>I Don't Want to Sound Like AI</title>
+  <link href="https://www.bcionescu.com/posts/i-dont-want-to-sound-like-ai"/>
+  <id>https://www.bcionescu.com/posts/i-dont-want-to-sound-like-ai</id>
+  <updated>2025-12-22T10:00:00Z</updated>
+
+  <content type="html">
+    <![CDATA[
+      <div class="video-container"><iframe src="https://www.youtube.com/embed/TXIXWRTrLbo" title="" frameborder="0" allowfullscreen></iframe></div>
+
+      <p>I recently spoke about how <a href="https://youtu.be/O9UWhLc7fLs" class="body-link" target="_blank" rel="noopener noreferrer">people now sound like AI</a>. After pondering the issue further, I came to a scary realization that I, too, am permeable and thus susceptible to this.</p>
+
+      <p>A while ago, I ended up looking up commonly used AI words, like: delve, boast, meticulous, etc., so I could avoid them. I now find myself generally avoiding scripted videos, as they might have used AI for the script.</p>
+
+      <p>Even if they did not, many people now sound like AI, and I’m trying to minimize my exposure to it. I don’t want to sound like a machine; I want to sound like a human. I want to stutter and make mistakes.</p>
+
+      <p>In old Sci-Fi books, the robots always envied us. Our imperfection was what made us humans, and in stories like Asimov’s <i>Bicentennial Man</i>, the robots seek imperfection to become more like us.</p>
+
+      <p>Especially as someone who <a href="https://dl.bookfunnel.com/u32npyhm6k" class="body-link" target="_blank" rel="noopener noreferrer">writes fiction</a>, I don’t want my writing to be robotic. I want it to be perfect, but what that means seems to be changing.</p>
+
+      <p>Perfection is sterile and clinical. Nature is imperfect, and yet it’s all I’ve ever wanted.</p>
+    ]]>
+  </content>
+</entry>
 
 <entry>
   <title>You Should Buy an Old Laptop</title>
