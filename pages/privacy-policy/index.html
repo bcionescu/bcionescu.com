@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The website's privacy policy.">
+	<title>Privacy Policy - bcionescu.com</title>
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+	<div id="header"></div>
+
+	<div class="container">
+	<br><br>
+	<center>
+		<h1 style="margin-top: 0;">Privacy Policy</h1>
+	</center>
+
+	<br>
+ 
+  <p>Let's keep this simple. I do my best to collect as little data about my users as possible. I don't use tracking scripts on my site, although some data might be collected if you join my author newsletter. Examples of what might be collected if obvious stuff, like your email, and whether you have opened an email that I sent or not.</p>
+
+  <p>The reason why I collect whether users have opened emails is so that I can prune the contact list. Given that there is a cost to sending out newsletters, this will allow me to trim the list, and only keep people that actually read the emails.</p>
+
+  <p>This site is hosted on Vercel, using their free hobby plan. As a result, they might collect some basic data on you, like what country you're in, etc. This is something that I have no control over.</p>
+
+</div>
+
+	<footer id="footer"></footer>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			fetch('/templates/header.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('header').innerHTML = data);
+
+			fetch('/templates/footer.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('footer').innerHTML = data);
+		});
+	</script>
+
+</body>
+
+</html>
