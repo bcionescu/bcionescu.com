@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 <title>bcionescu.com</title>
-<link href="https://bcionescu.com.com/" />
-<link href="https://bcionescu.com/atom.xml" rel="self" />
+<link href="https://bcionescu.com/" />
+<link href="https://bcionescu.com/feed.atom" rel="self" />
 <updated>2025-12-25T00:26:00Z</updated>
 <id>https://bcionescu.com/</id>
 <author>
