@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="The other day, I came up with a really nice config for Obsidian. I found incredibly useful plugins, tweaked the CSS just right, and set up the perfect hotkeys for my setup.">
 	<title>Sharing Is Caring - bcionescu.com</title>
-	<link rel="stylesheet" href="/css/styles.css">
+	<link rel="stylesheet" href="../../css/styles.css">
 </head>
 
 <body>
@@ -32,8 +32,8 @@
 
       <br>
       <div class="bottom-links-container">
-        <a href="/posts/sweet-distractions/index.html" class="body-link">< Previous</a>
-        <a href="/posts/if-you-use-ai-you-will-be-left-behind/index.html" class="body-link">Next ></a>
+        <a href="../sweet-distractions/index.html" class="body-link">< Previous</a>
+        <a href="../if-you-use-ai-you-will-be-left-behind/index.html" class="body-link">Next ></a>
       </div>
 
 		</div>
@@ -42,11 +42,11 @@
 
 	<script>
 		document.addEventListener("DOMContentLoaded", function () {
-			fetch('/templates/header.html')
+			fetch('../../templates/header.html')
 				.then(response => response.text())
 				.then(data => document.getElementById('header').innerHTML = data);
 
-			fetch('/templates/footer.html')
+			fetch('../../templates/footer.html')
 				.then(response => response.text())
 				.then(data => document.getElementById('footer').innerHTML = data);
 		});
