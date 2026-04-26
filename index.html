@@ -8,14 +8,14 @@
   <!-- The other temporary password is: youraunt -->
   <!-- Please make sure to delete this ;) -->
 
-  <link rel="preload" href="/fonts/iAWriterMonoS-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/iAWriterMonoS-Bold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/iAWriterMonoS-Italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/iAWriterMonoS-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/iAWriterMonoS-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/iAWriterMonoS-Italic.woff2" as="font" type="font/woff2" crossorigin>
 
 	<title>bcionescu.com</title>
   <meta name="description" content="A developer's personal blog, written in HTML, and CSS, with a sprinkling of JS.">
 	<link rel="stylesheet" href="css/styles.css">
-	<link rel="alternate" type="application/atom+xml" title="Blog Feed" href="/feed.atom">
+	<link rel="alternate" type="application/atom+xml" title="Blog Feed" href="feed.atom">
 </head>
 
 <body>
@@ -166,11 +166,11 @@
 
 	<script>
 		document.addEventListener("DOMContentLoaded", function () {
-			fetch('/templates/header.html')
+			fetch('templates/header.html')
 				.then(response => response.text())
 				.then(data => document.getElementById('header').innerHTML = data);
 
-			fetch('/templates/footer.html')
+			fetch('templates/footer.html')
 				.then(response => response.text())
 				.then(data => document.getElementById('footer').innerHTML = data);
 		});
