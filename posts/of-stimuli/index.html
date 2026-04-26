@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="The ability to pay attention is a superpower; however, this was not always the case. I recall growing up in rural Romania in the 90s. Looking back, my upbringing was drastically different from that of kids growing up today.">
 	<title>Of Stimuli - bcionescu.com</title>
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
@@ -57,8 +57,8 @@
 
       <br>
       <div class="bottom-links-container">
-        <a href="posts/that-which-does-not-belong-to-us/index.html" class="body-link">< Previous</a>
-        <a href="posts/always-choose-suffering/index.html" class="body-link">Next ></a>
+        <a href="../posts/that-which-does-not-belong-to-us/index.html" class="body-link">< Previous</a>
+        <a href="../posts/always-choose-suffering/index.html" class="body-link">Next ></a>
       </div>
 
 </div>
@@ -67,11 +67,11 @@
 
 	<script>
 		document.addEventListener("DOMContentLoaded", function () {
-			fetch('templates/header.html')
+			fetch('../templates/header.html')
 				.then(response => response.text())
 				.then(data => document.getElementById('header').innerHTML = data);
 
-			fetch('templates/footer.html')
+			fetch('../templates/footer.html')
 				.then(response => response.text())
 				.then(data => document.getElementById('footer').innerHTML = data);
 		});
