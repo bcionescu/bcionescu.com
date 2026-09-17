@@ -24,20 +24,26 @@
 
 html,
 body {
-	height: 100%;
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-	background-color: #1B1B1B;
-	color: white;
-	font-size: 18px;
-	font-family: 'iAWriterMono', Consolas, Menlo, Monaco, monospace;
-	overflow: auto;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #1B1B1B;
+  color: white;
+  font-size: 18px;
+  font-family: 'iAWriterMono', Consolas, Menlo, Monaco, monospace;
+  overflow: auto;
   scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .dateread {
@@ -75,10 +81,41 @@ h2 {
 	color: #FFBE69;
 }
 
+#header {
+  min-height: 3rem;
+  flex-shrink: 0;
+}
+
+#footer {
+  min-height: 3.5rem; /* match your real footer: padding + one line of links */
+  flex-shrink: 0;
+}
+
+.container p {
+  max-width: 42rem;
+  width: 100%;
+  margin: 0.5rem 0;
+  text-align: left;
+}
+
 .container {
-	max-width: 50%;
-	margin: 0 auto;
-	padding: 2rem 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.container p {
+  max-width: 42rem;
+  width: 100%;
+  margin: 0.5rem 0;
+  text-align: left;
+}
+
+p {
+  text-align: justify;
 }
 
 .video-container {
@@ -156,24 +193,29 @@ a.read-more-link {
 }
 
 footer {
-	text-align: center;
-	color: white;
-	padding: 1rem;
-	margin-top: 2rem;
-}
-
-footer a {
-	color: #FFBE69;
-	text-decoration: none;
-}
-
-footer a:hover {
-	text-decoration: underline;
+  text-align: center;
+  color: white;
+  /* padding: 1rem; */
+  margin-top: auto;
 }
 
 footer p {
-	display: inline;
-	margin: 0;
+  display: inline;
+  margin: 0;
+}
+
+footer a {
+  color: #FFBE69;
+  text-decoration: none;
+  padding: 0;
+  margin: 0 0.75rem;
+  line-height: 1.2;
+  border-bottom: 1px solid transparent;
+}
+
+footer a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #FFBE69;
 }
 
 /* Tablets */
@@ -221,7 +263,7 @@ footer p {
 	}
 
 	.container {
-		max-width: 95%;
+		max-width: 74%;
 		margin: 0 auto;
 		padding: 2rem 1rem;
 	}
